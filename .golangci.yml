@@ -1,0 +1,60 @@
+#### https://golangci-lint.run/usage/configuration/
+# golangci-lint run 
+
+# Run all linters
+run:
+  # Number of CPUs to use when running golangci-lint.
+  # Default: the number of logical CPUs in the machine
+  concurrency: 4
+  # Timeout for analysis, e.g. 30s, 5m.
+  # Default: 1m
+  timeout: 5m
+  # Exit code when at least one issue was found.
+  # Default: 1
+  issues-exit-code: 2
+  # Include test files or not.
+  # Default: true
+  tests: false
+  # List of build tags, all linters use it.
+  # Default: []
+  build-tags:
+    - mytag
+  skip-dirs:
+    - tmp
+
+# Lint specific package or file
+# Use `#` to comment out options when not needed
+# run:
+#   args: ["run", "-p", "your_package_name"] # Lint specific package
+#   args: ["run", "-f", "path/to/your/file.go"] # Lint specific file
+
+# Build tools configuration (adjust paths as needed)
+build:
+  - args: ["-v", "--skip-install"] # Optionally skip installing dependencies
+  - tools: ["golangci-lint"] # List tools to build
+  - main: ["golangci-lint"] # Specify main tool
+
+# Exclude certain files or directories from linting
+ignore:
+  - "^vendor/" # Ignore vendor directory
+
+linters:
+  disable-all: true
+  enable:
+    - govet
+    - misspell
+    - unconvert
+    - goconst
+    - revive
+    - govet
+    - errcheck
+    - ineffassign
+    - gofmt
+    - staticcheck
+    - typecheck
+    - dupl
+
+exclude-rules:
+  - id: comment
+    regex: "(?i)don't|must not"
+    files: ["main.go"]

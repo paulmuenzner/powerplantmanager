@@ -1,0 +1,41 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+settings.json
+
+# Test binary, built with 'go test -c'
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Ignore the .aws folder
+.aws/
+
+# Tempory files 
+tmp/
+
+# Log files 
+log/
+
+# Uncomment if you use Go Modules
+.go-version
+.env
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Vim or Visual Studio Code temporary files
+*.swp
+.vscode/
+
+# Log files and directories
+log.txt
+log/
