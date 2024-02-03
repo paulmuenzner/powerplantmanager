@@ -7,7 +7,7 @@
 -->
 <!-- [![Golang][golang-shield]][golang-url] -->
 [![Go Report Card](https://goreportcard.com/badge/github.com/paulmuenzner/powerplantmanager)](https://goreportcard.com/report/github.com/paulmuenzner/powerplantmanager)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/650472443a824243884952184a6732dd)](https://app.codacy.com/gh/paulmuenzner/powerplantmanager/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b16cd474a2ff4655b973991746193d9c)](https://app.codacy.com/gh/paulmuenzner/powerplantmanager/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Issues][issues-shield]][issues-url]
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/paulmuenzner/powerplantmanager)
 [![GNU License][license-shield]][license-url]
@@ -547,7 +547,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [contributors-url]: https://github.com/paulmuenzner/powerplantmanager/graphs/contributors
 [issues-shield]: https://img.shields.io/github/issues/paulmuenzner/powerplantmanager.svg
 [issues-url]: https://github.com/paulmuenzner/powerplantmanager/issues
-[license-shield]: https://img.shields.io/github/license/paulmuenzner/powerplantmanager.svg
+[license-shield]: https://img.shields.io/badge/license-GPL_2.0-orange.svg?colorB=FF5733
 [license-url]: https://github.com/paulmuenzner/powerplantmanager/blob/master/LICENSE.txt
 <!-- [website-shield]: https://img.shields.io/badge/www-paulmuenzner.com-blue
 [website-url]: https://paulmuenzner.com -->
