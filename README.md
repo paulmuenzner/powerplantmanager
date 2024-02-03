@@ -90,7 +90,7 @@ In addition to efficient data logging, the Photovoltaic Plant Management System 
 -   AWS functions to upload and delete files and images for your power plant to S3 change their names
 -   Strict file upload validations: number, sizes, type
 -   Fully-featured cookie handler
--   This Golang github.com/paulmuenzner/powerplantmanager boasts a robust architecture designed for flexibility, reduced coupling and testibiliy through a dedicated Dependency Injection (DI) setup. The core functionalities of database communications, and AWS operations and sending email notifications are seamlessly integrated, providing a cohesive and modular solution.
+-   This Golang server boasts a robust architecture designed for flexibility, reduced coupling and testibiliy through a dedicated Dependency Injection (DI) setup. The core functionalities of database communications, and AWS operations and sending email notifications are seamlessly integrated, providing a cohesive and modular solution.
 -   Context extensions enabling to reuse queried data amongst more than one controller within one route an thus reducing number of database requests
 -   JWT setup needed for authentication and authorization
 -   Documentation an description of function an controllers
@@ -232,14 +232,14 @@ EMAIL_ADDRESS_RECEIVER_BACKUP=your-receiver-email-address
 ### Configuration
 <a name="configuration"></a>
 The following configurations can be modified in the config file located at => /config/...
-All values are pre-configured with default settings, ensuring the github.com/paulmuenzner/powerplantmanager is ready to run and the program is ready for use.
+All values are pre-configured with default settings, ensuring the server is ready to run and the program is ready for use.
 
 | Key                               |  Description |  Type |  Example 
 |:-----                             |:---------    |:---------  |:---------  
-| URL                               | The URL for accessing the github.com/paulmuenzner/powerplantmanager hosting this program. | string|   https://www.example.com 
-| WriteTimeout                      | This parameter determines the maximum duration allowed for the github.com/paulmuenzner/powerplantmanager to write a response to a client. This ensures timely completion of write operations. The timeout is set to config.WriteTimeout seconds, providing flexibility in adjusting the duration based on specific requirements. | int|   5  
-| ReadTimeout                      | This parameter parameter sets the maximum duration permitted for the github.com/paulmuenzner/powerplantmanager to read an entire request from a client. It helps manage the time allocated for processing incoming requests. The timeout is configured to config.ReadTimeout seconds, allowing customization based on the desired duration. | int|   20 
-| IdleTimeout                      | This parameter dictates the maximum duration the github.com/paulmuenzner/powerplantmanager can keep an idle (keep-alive) connection open. This is crucial for optimizing resource usage and maintaining efficient connections. The timeout is adjusted to config.IdleTimeout seconds, providing control over the duration of idle connections. | int|   60
+| URL                               | The URL for accessing the server hosting this program. | string|   https://www.example.com 
+| WriteTimeout                      | This parameter determines the maximum duration allowed for the server to write a response to a client. This ensures timely completion of write operations. The timeout is set to config.WriteTimeout seconds, providing flexibility in adjusting the duration based on specific requirements. | int|   5  
+| ReadTimeout                      | This parameter parameter sets the maximum duration permitted for the server to read an entire request from a client. It helps manage the time allocated for processing incoming requests. The timeout is configured to config.ReadTimeout seconds, allowing customization based on the desired duration. | int|   20 
+| IdleTimeout                      | This parameter dictates the maximum duration the server can keep an idle (keep-alive) connection open. This is crucial for optimizing resource usage and maintaining efficient connections. The timeout is adjusted to config.IdleTimeout seconds, providing control over the duration of idle connections. | int|   60
 | DeleteLogsAfterDays                | Errors are logged to the 'log/' folder, with log file names assigned based on the day. All logs generated within a day are consolidated into a designated backup file. This parameter determines the number of days after which log files will be automatically deleted. | int|   5 
 | PlantNameLength                | Maximum permitted length of a plant name each user can register. | int|   50 
 | IntervalSecDefault                | Default interval, in seconds, for enabling data logging to the plant logger. | int|   15 * 60
@@ -290,7 +290,7 @@ Run program by: `go run main.go` or use live-reloader such as [air](https://gith
 <!-- USAGE -->
 ## Usage
 
-This github.com/paulmuenzner/powerplantmanager exposes various endpoints to facilitate authentication, file management, and plant-related operations.
+This server exposes various endpoints to facilitate authentication, file management, and plant-related operations.
 
 
 ### Routes 
@@ -356,7 +356,7 @@ The files API '/files' provides functionality for managing files and documents.
 
 2. **`/files/delete-file`**
    - **Method:** DELETE
-   - **Description:** Delete a file from the github.com/paulmuenzner/powerplantmanager. Provide file id in request body.
+   - **Description:** Delete a file from the server. Provide file id in request body.
    - **Authentication Required:** Yes
    - **Request Body Example:**
      ```json
@@ -548,7 +548,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-shield]: https://img.shields.io/github/issues/paulmuenzner/powerplantmanager.svg
 [issues-url]: https://github.com/paulmuenzner/powerplantmanager/issues
 [license-shield]: https://img.shields.io/github/license/paulmuenzner/powerplantmanager.svg
-[license-url]: https://github.com/paulmuenzner/powerplantmanager/blob/main/LICENSE.txt
+[license-url]: https://github.com/paulmuenzner/powerplantmanager/blob/master/LICENSE.txt
 <!-- [website-shield]: https://img.shields.io/badge/www-paulmuenzner.com-blue
 [website-url]: https://paulmuenzner.com -->
 
