@@ -548,7 +548,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-shield]: https://img.shields.io/github/issues/paulmuenzner/powerplantmanager.svg
 [issues-url]: https://github.com/paulmuenzner/powerplantmanager/issues
 [license-shield]: https://img.shields.io/github/license/paulmuenzner/powerplantmanager.svg
-[license-url]: https://github.com/paulmuenzner/powerplantmanager/blob/master/LICENSE.txt
+[license-url]: https://github.com/paulmuenzner/powerplantmanager/blob/main/LICENSE.txt
 <!-- [website-shield]: https://img.shields.io/badge/www-paulmuenzner.com-blue
 [website-url]: https://paulmuenzner.com -->
 
