@@ -14,7 +14,6 @@ new test or update an existing one to cover that bug.
 
 ## New feature proposal
 
-If you think Gomail lacks a feature, you can open an issue or send a pull
-request. I want to keep Gomail code and API as simple as possible so please
-describe your needs so we can discuss whether this feature should be added to
-Gomail or not.
+If you think this project lacks a feature, you can open an issue or send a pull
+request. I want to keep this project's code and API as simple as possible so please
+describe your needs so we can discuss whether this feature should be added or not.
