@@ -542,7 +542,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [mongodb-shield]: https://img.shields.io/badge/mongodb-black.svg?logo=mongodb&logoColor=ffffff&colorB=47A248
 [mongodb-url]: https://go.dev/
 [github-shield]: https://img.shields.io/badge/paulmuenzner-black.svg?logo=github&logoColor=ffffff&colorB=000000
-[github-url]: https://github.com/paulmuenzner
+[github-url]: https://github.com/paulmuenzner?tab=repositories
 [contributors-shield]: https://img.shields.io/github/contributors/paulmuenzner/powerplantmanager.svg
 [contributors-url]: https://github.com/paulmuenzner/powerplantmanager/graphs/contributors
 [issues-shield]: https://img.shields.io/github/issues/paulmuenzner/powerplantmanager.svg
