@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/paulmuenzner/powerplantmanager">
-    <img src="images/golang-manage-renewable-power-plants.png" alt="Logo" width="342" height="210">
+    <img src="assets/golang-manage-renewable-power-plants.png" alt="Logo" width="342" height="210">
   </a>
 
   <h3 align="center">Golang Photovoltaic Plant Management Server</h3>
@@ -42,7 +42,8 @@
   </p>
 </div>
 
-
+<!-- HEADER -->
+![Header](assets/golang-power-plant-management-server-paul-muenzner.png)
 
 <!-- TABLE OF CONTENTS -->
 <details>
