@@ -157,7 +157,7 @@ Prior to launching the program, clone the repo, install go dependencies and ensu
    ```
 
 ### Environment file (.env)
-Before running the program, you need to set up the required environment variables by creating a .env file in the root directory of the project. This file holds sensitive information and configurations needed for the proper functioning of the application.
+Before running the program, you need to set up the required environment variables by creating a .env file in the root directory of the project. This file holds sensitive information and configurations needed for the proper functioning of the application. To streamline the process, the provided template for environment variables saves time in creating the .env file. Simply convert .env.template file to .env.
 
 #### Mandatory Environment Variables
 
