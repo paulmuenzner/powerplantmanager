@@ -2,7 +2,8 @@ package config
 
 import "regexp"
 
-// Add more regex patterns as needed
+// RegEx configuration parameter
+
 type RegexPatterns struct {
 	Ipv4     *regexp.Regexp
 	Ipv6     *regexp.Regexp

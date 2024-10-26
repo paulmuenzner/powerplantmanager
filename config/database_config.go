@@ -2,6 +2,8 @@ package config
 
 import "go.mongodb.org/mongo-driver/mongo"
 
+// Database configuration parameter
+
 const (
 	DatabaseNameUserAuth          string = "PlantDB"
 	DatabaseNameFiles             string = "PlantDB"

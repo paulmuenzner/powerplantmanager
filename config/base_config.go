@@ -1,5 +1,7 @@
 package config
 
+// General configuration parameter
+
 const (
 	URL string = "https://www.example.com"
 	//http.Server configuration

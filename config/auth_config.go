@@ -1,6 +1,6 @@
 package config
 
-// Add more constants as needed
+// Authentication configuration parameter
 
 const (
 	MinLengthPassword     int = 12
