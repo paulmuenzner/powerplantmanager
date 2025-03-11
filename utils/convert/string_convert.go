@@ -16,6 +16,5 @@ func StringToInt(s string) (int, error) {
 
 // Int to string
 func IntToString(value int) string {
-	str := strconv.Itoa(value)
-	return str
+	return strconv.Itoa(value)
 }
